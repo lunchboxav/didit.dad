@@ -7,6 +7,10 @@ body {
   font-family: "PT Sans", serif;
 }
 
+h1, h2, p {
+  margin-bottom: 0;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,7 @@ main img.header-image {
 footer {
   border-top: 1px solid #000000;
   text-align: center;
+  padding-bottom: 24px;
 }
 
 @media only screen and (min-width: 720px) {
