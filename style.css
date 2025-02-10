@@ -19,12 +19,20 @@ nav #nav-header {
 }
 
 nav .site-title {
-  font-size: larger;
+  font-size: x-large;
   font-weight: 700;
+}
+
+nav #nav-items a {
+  padding: 8px;
 }
 
 main {
   flex: 1;
+}
+
+main img.header-image {
+  width: 100%;
 }
 
 footer {
@@ -42,5 +50,9 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding: 8px 0;
+  }
+
+  nav #nav-header {
+    margin-bottom: 0;
   }
 }
